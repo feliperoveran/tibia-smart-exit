@@ -8,6 +8,7 @@
 #include <iostream>
 
 int main(int argc, char **argv) {
+  // TODO: set this dynamically instead of using a constant
   const int trigger_key = 67;
   const char* input = "/dev/input/event3";
 
